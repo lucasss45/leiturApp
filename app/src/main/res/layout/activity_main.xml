@@ -1,19 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/bookImage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2B484B"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2B484B"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Título do Livro -->
+            <TextView
+                android:id="@+id/bookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="O Avesso Da Pele"
+                android:textColor="#E5B457"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="24dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/circle_shape" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="288dp"
+                    android:layout_height="279dp"
+                    app:srcCompat="@drawable/homem" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/bookSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Um livro de Jefferson Tenório"
+                android:textColor="#E5B457"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/aboutBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Sobre O Livro"
+                android:textColor="#E5B457"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Descrição -->
+            <TextView
+                android:id="@+id/bookDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Avesso da Pele, de Jeferson Tenório, é um romance que explora a identidade, raça e relações sociais no Brasil. A história é narrada por um jovem negro que enfrenta preconceitos e desafios. A narrativa intensa provoca reflexões sobre desigualdades e as estruturas sociais presentes na sociedade."
+                android:textColor="#BDBDBD"
+                android:textSize="12sp" />
+
+            <!-- Linha do Tempo -->
+            <TextView
+                android:id="@+id/timeline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="LINHA DO TEMPO"
+                android:textColor="#E5B457"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

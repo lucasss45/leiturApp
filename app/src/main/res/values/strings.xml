@@ -1,3 +1,31 @@
 <resources>
+    <!-- Nome do aplicativo -->
     <string name="app_name">AppAvessoPele</string>
+
+    <!-- Strings usadas para navegação -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings para o Navigation Drawer -->
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+
+    <!-- Adicionando as strings para os itens do menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_slideshow">Slideshow</string>
+
+    <!-- Texto de exemplo -->
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit…
+    </string>
+
+    <!-- Novas strings adicionadas -->
+    <string name="book_subtitle">Um livro de Jefferson Tenório</string>
+    <string name="about_book">Sobre O Livro</string>
+    <string name="book_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum dui lacus, id facilisis odio porta vitae. Maecenas ut velit ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum dui lacus, id facilisis odio porta vitae. Maecenas ut velit ultricies.</string>
+    <string name="timeline">LINHA DO TEMPO</string>
+    <string name="arrow_description">Seta</string>
 </resources>
