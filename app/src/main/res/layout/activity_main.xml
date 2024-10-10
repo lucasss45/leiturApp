@@ -31,7 +31,6 @@
                 android:textSize="36sp"
                 android:textStyle="bold" />
 
-
             <FrameLayout
                 android:layout_width="300dp"
                 android:layout_height="300dp"
@@ -50,7 +49,6 @@
 
             </FrameLayout>
 
-
             <TextView
                 android:id="@+id/bookSubtitle"
                 android:layout_width="wrap_content"
@@ -60,7 +58,6 @@
                 android:text="Um livro de Jefferson Tenório"
                 android:textColor="#E5B457"
                 android:textSize="30sp" />
-
 
             <TextView
                 android:id="@+id/aboutBook"
@@ -96,6 +93,15 @@
                 android:textColor="#E5B457"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
+            <!-- Imagem com função de botão para navegar para 'personagens.java' -->
+            <ImageView
+                android:id="@+id/link1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:srcCompat="@drawable/seta_removebg_preview" />
 
         </LinearLayout>
 
