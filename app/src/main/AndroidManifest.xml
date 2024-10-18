@@ -19,10 +19,6 @@
             android:name=".personagens"
             android:exported="false" />
         <activity
-            android:name=".Personagens"
-            android:exported="false"
-            android:theme="@style/Theme.AppAvessoPele" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

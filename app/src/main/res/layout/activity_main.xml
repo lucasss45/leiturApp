@@ -101,6 +101,7 @@
                 android:layout_height="60dp"
                 android:clickable="true"
                 android:focusable="true"
+                android:contentDescription="Enter How Much Cookies You Want"
                 app:srcCompat="@drawable/seta_removebg_preview" />
 
         </LinearLayout>
