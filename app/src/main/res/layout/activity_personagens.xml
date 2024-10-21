@@ -70,110 +70,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
                         android:layout_gravity="center_vertical"
                         android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_marginBottom="16dp">
-
-                <!-- Repetir este bloco para cada círculo/texto -->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:layout_marginBottom="16dp">
-
-                    <!-- Círculo (usar ImageView ou View com fundo arredondado) -->
-                    <View
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="@drawable/circle_shape"
-                        android:layout_marginEnd="16dp" />
-
-                    <!-- Texto associado ao círculo -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_marginBottom="16dp">
-
-                <!-- Repetir este bloco para cada círculo/texto -->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:layout_marginBottom="16dp">
-
-                    <!-- Círculo (usar ImageView ou View com fundo arredondado) -->
-                    <View
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="@drawable/circle_shape"
-                        android:layout_marginEnd="16dp" />
-
-                    <!-- Texto associado ao círculo -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_marginBottom="16dp">
-
-                <!-- Repetir este bloco para cada círculo/texto -->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical"
-                    android:layout_marginBottom="16dp">
-
-                    <!-- Círculo (usar ImageView ou View com fundo arredondado) -->
-                    <View
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
-                        android:background="@drawable/circle_shape"
-                        android:layout_marginEnd="16dp" />
-
-                    <!-- Texto associado ao círculo -->
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
+                        android:padding="8dp"
+                        android:text="Pedro: Protagonista, filho de Henrique. Lida com questões de identidade racial e o impacto da morte do pai, enquanto reflete sobre sua própria vida e herança."
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -205,7 +106,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginEnd="16dp"
                         android:padding="8dp"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        android:text="Henrique: Pai de Pedro, professor de filosofia negro, que enfrentava racismo em sua vida cotidiana. Sua morte em uma abordagem policial molda o eixo central da narrativa."
                         android:textColor="#FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
@@ -235,11 +136,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
                         android:layout_gravity="center_vertical"
                         android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
+                        android:padding="8dp"
+                        android:text="Mãe de Pedro: Reservada e distante, ela evita discutir o passado e a morte de Henrique, mantendo uma relação emocionalmente fria com o filho."
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -268,13 +169,57 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                        android:textColor="#FFFFFF"
                         android:layout_gravity="center_vertical"
                         android:layout_marginEnd="16dp"
-                        android:padding="8dp" />
+                        android:padding="8dp"
+                        android:text="Tia Rosângela: Irmã de Henrique, tem uma relação mais próxima com Pedro. Ela ajuda a fornecer detalhes sobre o pai e o contexto de sua vida, ampliando a compreensão de Pedro."
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- Repetir este bloco para cada círculo/texto -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <!-- Círculo (usar ImageView ou View com fundo arredondado) -->
+                    <View
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/circle_shape"
+                        android:layout_marginEnd="16dp" />
+
+                    <!-- Texto associado ao círculo -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="Jorge: Padrasto de Pedro, tenta desempenhar um papel de figura paterna, mas a relação com Pedro é complexa, devido à perda de Henrique e as diferenças pessoais entre eles."
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="16dp">
+
+                <!-- Repetir este bloco para cada círculo/texto -->
+
+            </LinearLayout>
+
 
             <!-- Seção destacada na parte inferior para JEFFERSON TENÓRIO -->
             <LinearLayout
@@ -285,6 +230,13 @@
                 android:padding="16dp"
                 android:gravity="center_horizontal">
 
+                <ImageView
+                    android:layout_width="152dp" <!-- Você pode aumentar para 200dp ou mais se desejar -->
+                android:layout_height="200dp" <!-- Aumentei a altura da imagem -->
+                android:layout_marginBottom="8dp"
+                android:contentDescription="Foto de Jefferson Tenório"
+                app:srcCompat="@drawable/jefersontenorio" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -292,16 +244,28 @@
                     android:textSize="18sp"
                     android:textColor="#000000"
                     android:textStyle="bold"
-                    android:gravity="center" />
+                    android:gravity="center"
+                    android:layout_marginTop="8dp" /> <!-- Margem superior adicionada -->
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum dui lacus."
+                    android:text="Jefferson Tenório é um escritor brasileiro conhecido por suas obras que abordam questões sociais e raciais, utilizando uma prosa envolvente e reflexiva."
                     android:textColor="#000000"
                     android:gravity="center"
-                    android:paddingTop="8dp" />
+                    android:paddingTop="8dp"
+                    android:layout_marginTop="4dp" /> <!-- Margem superior adicionada -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Com livros como 'Avesso da Pele', Tenório explora a identidade e o racismo no Brasil, trazendo à tona a voz de personagens complexos e reais."
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:layout_marginTop="4dp" /> <!-- Margem superior adicionada -->
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -317,57 +281,7 @@
                 </LinearLayout>
 
                 <!-- Seção de Projetos em Destaque -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:background="#FFCC66"
-                    android:orientation="vertical"
-                    android:padding="16dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="8dp"
-                        android:text="Projetos em Destaque"
-                        android:textColor="#000000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <!-- Exemplo de um projeto -->
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:paddingBottom="8dp">
-
-                        <ImageView
-                            android:layout_width="80dp"
-                            android:layout_height="80dp"
-                            android:layout_marginRight="16dp"
-                            android:src="@drawable/ic_launcher_foreground" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Nome do Projeto"
-                                android:textColor="#000000"
-                                android:textSize="18sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Descrição curta sobre o projeto."
-                                android:textColor="#666666"
-                                android:textSize="14sp" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </LinearLayout>
 
 
             <!-- Seção Sobre Nós -->
@@ -421,13 +335,14 @@
                     android:layout_marginTop="16dp"
                     android:background="#FFCC66"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    tools:ignore="ExtraText">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="8dp"
-                        android:text="Depoimentos"
+                        android:text="Comentários"
                         android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -439,7 +354,7 @@
                         android:background="#FFFFFF"
                         android:padding="8dp"
                         android:layout_marginTop="8dp"
-                        android:text="“Este projeto transformou nossa equipe. Altamente recomendado!” - Cliente A"
+                        android:text="“A narrativa de Avesso da Pele me tocou profundamente. A forma como o autor explora a relação entre pai e filho e a questão do racismo no Brasil é ao mesmo tempo sensível e brutal. O livro mostra como o preconceito racial marca vidas e gerações, e faz isso com uma prosa envolvente e reflexiva” - João Antunes"
                         android:textColor="#000000"
                         android:textSize="16sp" />
 
@@ -449,11 +364,22 @@
                         android:layout_marginTop="8dp"
                         android:background="#FFFFFF"
                         android:padding="8dp"
-                        android:text="“Excelente experiência! Resultados incríveis.” - Cliente B"
+                        android:text="“Jeferson Tenório tem uma escrita envolvente e poética, que cria imagens marcantes. Ele consegue nos prender enquanto nos faz refletir sobre questões sociais importantes.” - Natalia Fonseca"
                         android:textColor="#000000"
                         android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="#FFFFFF"
+                        android:padding="8dp"
+                        android:text="“Os personagens são ricos e complexos, especialmente o pai de Pedro, cuja luta com o racismo e suas próprias angústias traz uma dimensão humana e tocante à história.” - Sarah Oliveira"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+ ///
                 </LinearLayout>
-                <!-- Seção Fale Conosco -->
+                <!--  -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -476,7 +402,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="4dp"
-                        android:text="Email: contato@exemplo.com"
+                        android:text="Email: nota10.lucas@gmail.com e yasserguns@gmail.com"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
 
@@ -484,15 +410,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingBottom="4dp"
-                        android:text="Telefone: (11) 1234-5678"
-                        android:textColor="#FFFFFF"
-                        android:textSize="16sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="4dp"
-                        android:text="Endereço: Rua Exemplo, 123, São Paulo - SP"
+                        android:text="Github: Lucasss45 e Kleidin"
                         android:textColor="#FFFFFF"
                         android:textSize="16sp" />
                 </LinearLayout>
